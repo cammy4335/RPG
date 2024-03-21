@@ -1,0 +1,195 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Pixel Quest</title>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/frame.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/controls.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/custom.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/menu.js"></script>
+  <script src="js/footer.js"></script>
+  <style>
+    .menu-index {
+      color: rgb(255, 255, 255) !important;
+      opacity: 1 !important;
+      font-weight: 700 !important;
+    }
+    
+
+    .button-66 {
+  background-color: #0a6bff;
+  border-radius: 4px;
+  border: 0;
+  box-shadow: rgba(1, 60, 136, .5) 0 -1px 3px 0 inset, rgba(0, 44, 97, .1) 0 3px 6px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-family: "Space Grotesk", -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 14px; /* Consider reducing if button still too large */
+  font-weight: 700;
+  line-height: 1; /* Adjusted line height, keep or reduce as needed */
+  margin: 0 auto;
+  padding: 4px 16px !important; /* Reduced top and bottom padding */
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  transition: all .2s cubic-bezier(.22, .61, .36, 1);
+  height: 50px; /* Ensure height adjusts to content */
+  width: auto; /* Ensure width adjusts to content */
+
+  position: absolute;
+  top: 70%; /* Increase the percentage to move the button down */
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+.button-66:hover {
+  background-color: #065dd8; /* Darker shade when hovered */
+  box-shadow: 0 0 8px rgba(10, 107, 255, 0.5); /* Glowing effect */
+  /* transform: translateY(-2px); This line is commented out to prevent moving the button */
+}
+
+
+@media (min-width: 768px) {
+  .button-66 {
+    padding: 6px 28px !important; /* Slightly reduced padding for larger screens */
+    font-size: 16px; /* Slightly reduced font size for larger screens */
+  }
+}
+
+
+
+
+    
+  </style>
+</head>
+
+<body>
+  <div class="menu-container"></div>
+  <div class="content-container" style="background-color: #000000;">
+    <!--Start Header-->
+    <div class="banner" style="background: url('img/game.png') no-repeat center; background-size: 100% 100%; height: 600px; position: relative;">
+      <a href="https://shiny-halva-914a8c.netlify.app" class="button-66" role="button">Play Now</a>
+    </div>
+    </div>
+    <div class="banner">
+      <div class="banner-table flex-column">
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <h2 class="add-top-margin-small">About the game</h2>
+            <p class="text">
+
+              <a href="https://shiny-halva-914a8c.netlify.app">Pixel Quest</a> is a retro-style adventure RPG. 
+              Dive into a pixelated world full of puzzles, battles, and exploration.
+              Play as the hero and collect items while jumping obstacles and conquering enemies. 
+              Simple, engaging, and full of charm, it's a perfect blend of nostalgia and fresh adventure.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <!--End Header-->
+    <!-------------------------------------------------------------------------------------------->
+    <div class="content">
+      <div class="content-table flex-column">
+        <!-------------------------------------------------------------------------------------------->
+        <!--Start Intro-->
+
+        <!-------------------------------------------------------------------------------------------->
+        <!--Start Text Only-->
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <h2 id="text-only">Introduction</h2>
+            <hr>
+            <p class="text">
+
+              Pixel Quest marries the timeless appeal of a level-based progression puzzle game 
+              with the modern capabilities of React and JavaScript. At its core, the game is a journey series of quests
+              through a range obstacles with enemies and enviornmental challenges.
+            </p>
+            <p class="text">
+              Built on React's efficient update and rendering system, the game's user interface is both responsive and dynamic, 
+              allowing for a seamless gameplay experience across a multitude of devices. JavaScript brings the labyrinth to 
+              life with intricate algorithms that underpin the game's level generation and puzzle complexity, 
+              ensuring that each stage is both unique and engaging.
+            </p>
+            <div class="flex-row" style="margin-bottom: 50px;"></div>
+
+        <!--End Text Only-->
+
+        <!-------------------------------------------------------------------------------------------->
+        <!--Start Text with Images and Videos-->
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <h2 id="text-with-images-and-videos" class="no-top-margin">Game Mechanics</h2>
+            <hr>
+
+        <div class="flex-row">
+          <div class="flex-item flex-item-stretch flex-column">
+            <video preload controls autoplay loop muted playsinline class="image">
+              <source src="vid/mov_bbb.mp4.mkv" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="flex-item flex-column">
+            <p class="text">
+              
+              <h3>Navigation and Movement</h3>
+
+              W, A, S, D Keys: The game employs the classic WASD key layout for player movement, 
+              a standard in many PC games for directional control.
+              This control scheme allows for intuitive and responsive movement, 
+              letting players easily navigate through the game's levels.
+            </p>
+          </div>
+        </div>
+        <h3>Item Collection and Utility</h3>
+        <p class="text">
+          Throughout the game, players encounter various items scattered around the levels or hidden in specific locations. Collecting items is crucial for progression, as they often directly impact the player's ability to move forward or access essential resources. Each item has its unique functionality:
+        </p>
+        <ul>
+          <li><strong>Keys:</strong> Used to unlock chests or doors, allowing access to new areas or rewarding players with additional items or powers.</li>
+          <li><strong>Items:</strong> Provides the hero with necesarry protection against enviornmental hazards spread throughout the game.</li>
+        </ul>
+      </div>
+      <h3>Progressing to the Next Level</h3>
+      <p class="text">
+      </p>
+      <ul>
+        <li>Progression in Pixel Quest: typically requires players to reach a specific endpoint in each level, which might be gated by puzzles, locked doors, or bosses.</li>
+        <li>Completing objectives, like collecting certain items, will open portals to the next level, paving way for escape from all hostiles</li>
+        <li>The game's levels are designed to increase in difficulty, introducing more complex puzzles, tougher enemies, and requiring more strategic item use as players advance.</li>
+      </ul>
+      <h3>Additional Mechanics</h3>
+      <p class="text">
+      </p>
+      <ul>
+        <li><strong>Puzzle Solving:</strong> Many levels include puzzles that must be solved to progress. These can range from simple switch-activating tasks to complex sequences that require careful thought and item use.</li>
+        <li><strong>Combat and Strategy:</strong> Players encounter various enemies, each with unique patterns and weaknesses. Combat may involve direct confrontation or using the environment and items to gain the upper hand.</li>
+      </ul>
+
+
+        <!--End Text with Images and Videos-->
+        <!-------------------------------------------------------------------------------------------->
+
+
+       
+    </div>
+    <div class="footer-container"></div>
+  </div>
+</body>
+
+</html>
